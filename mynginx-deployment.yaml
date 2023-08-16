@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mynginx
-        image: registry.atang.com/dev/mynginx:$commit_id
+        image: registry.atang.com/dev/mynginx:mytag
         imagePullPolicy: Always
         ports:
         - name: http
